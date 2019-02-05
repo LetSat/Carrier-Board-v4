@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name CarrierBoardV3)(type Legacy)(uri "C:/Users/Daniel Lopez/Documents/LETSAT/KiCad/CarrierBoardV3/CarrierBoardV3.lib")(options "")(descr ""))
+  (lib (name CarrierBoardV3)(type Legacy)(uri ${KIPRJMOD}/CarrierBoardV3.lib)(options "")(descr ""))
 )
