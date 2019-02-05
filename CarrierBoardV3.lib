@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TX2iConnctor
+#
+DEF TX2iConnctor U 0 40 Y Y 1 F N
+F0 "U" 0 1000 50 H V C CNN
+F1 "TX2iConnctor" 0 1100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 -650 1050 50 0 0 0 "C&D Pins" Normal 0 C C
+T 0 250 -2050 50 0 0 0 "E&F Pins" Normal 0 C C
+T 0 1150 1050 50 0 0 0 "G&H Pins" Normal 0 C C
+S -1700 900 -1450 -1900 0 1 0 N
+S -750 900 -500 -1900 0 1 0 N
+S 100 900 350 -1900 0 1 0 N
+S 1000 900 1250 -1900 0 1 0 N
+X VDD_IN A1 -1700 800 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
