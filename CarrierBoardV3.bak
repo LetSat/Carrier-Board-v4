@@ -211,7 +211,7 @@ Text GLabel 42300 28600 0    50   Input ~ 0
 SATA_RX+
 Text GLabel 42300 28700 0    50   Input ~ 0
 SATA_RX-
-Text GLabel 37350 29650 2    50   Input ~ 0
+Text GLabel 37200 28800 2    50   Input ~ 0
 SATA_ACTn
 Text GLabel 31300 25100 0    50   Input ~ 0
 GPI0
@@ -245,16 +245,4 @@ Text GLabel 31300 26100 0    50   Input ~ 0
 I2C_GP1_DAT
 Text GLabel 31300 26200 0    50   Input ~ 0
 I2C_GP1_CK
-Text GLabel 31300 28800 0    50   Input ~ 0
-SYS_RESETn
-Text GLabel 33550 28900 2    50   Input ~ 0
-WAKE1n
-Text GLabel 38700 24300 0    50   Input ~ 0
-SLEEPn
-Text Notes 37000 29550 0    50   ~ 0
-Cant find where to connect yet
-Text Notes 36650 30000 0    50   ~ 0
-Is either just VDD pins or something I do not know to connect too
-Text GLabel 37800 30150 0    50   Input ~ 0
-mCOM_12V
 $EndSCHEMATC
