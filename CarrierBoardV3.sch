@@ -234,7 +234,7 @@ SPI0_MISO
 Text GLabel 16450 9600 0    50   Input ~ 0
 SPI0_CLK
 Text GLabel 18600 9700 2    50   Input ~ 0
-SPIO_MOSI
+SPI0_MOSI
 Text GLabel 18600 9600 2    50   Input ~ 0
 SPI0_CS0#
 Text GLabel 11300 14300 2    50   Input ~ 0
@@ -284,4 +284,80 @@ Wire Notes Line
 	8250 16050 8250 8250
 Wire Notes Line
 	8250 8250 22900 8250
+$Comp
+L Connector_Generic:Conn_02x26_Odd_Even J?
+U 1 1 5C65D725
+P 20600 3150
+F 0 "J?" H 20650 4567 50  0000 C CNN
+F 1 "Conn_02x26_Odd_Even" H 20650 4476 50  0000 C CNN
+F 2 "" H 20600 3150 50  0001 C CNN
+F 3 "~" H 20600 3150 50  0001 C CNN
+	1    20600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x26_Odd_Even J?
+U 1 1 5C65D93F
+P 18800 3150
+F 0 "J?" H 18850 4567 50  0000 C CNN
+F 1 "Conn_02x26_Odd_Even" H 18850 4476 50  0000 C CNN
+F 2 "" H 18800 3150 50  0001 C CNN
+F 3 "~" H 18800 3150 50  0001 C CNN
+	1    18800 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 20400 3050 0    50   Input ~ 0
+mCOM_12V
+Text GLabel 20900 3050 2    50   Input ~ 0
+mCOM_12V
+Text GLabel 20900 3150 2    50   Input ~ 0
+mCOM_5V
+Text GLabel 20400 3150 0    50   Input ~ 0
+mCOM_5V
+Text GLabel 20400 3250 0    50   Input ~ 0
+mCOM_3V3
+Text GLabel 20900 3250 2    50   Input ~ 0
+mCOM_3V3
+Text GLabel 20900 3350 2    50   Input ~ 0
+mCOM_GND
+Text GLabel 20900 3450 2    50   Input ~ 0
+mCOM_GND
+Text GLabel 20400 3350 0    50   Input ~ 0
+mCOM_GND
+Text GLabel 20400 4250 0    50   Input ~ 0
+mCOM_GND
+Text GLabel 20900 4250 2    50   Input ~ 0
+mCOM_GND
+Text GLabel 20900 4150 2    50   Input ~ 0
+mCOM_VBATT
+Text GLabel 20400 4150 0    50   Input ~ 0
+mCOM_VBATT
+Text GLabel 18600 3950 0    50   Input ~ 0
+I2C_GP1_DAT
+Text GLabel 18600 4050 0    50   Input ~ 0
+I2C_GP1_CK
+Text GLabel 20050 10500 0    50   Input ~ 0
+UART0_RX
+Text GLabel 22200 10500 2    50   Input ~ 0
+UART0_TX
+Text GLabel 18600 1950 0    50   Input ~ 0
+UART0_TX
+Text GLabel 18600 2050 0    50   Input ~ 0
+UART0_RX
+Text GLabel 18600 2150 0    50   Input ~ 0
+mCOM_GND
+Text GLabel 20400 2150 0    50   Input ~ 0
+SPI0_CS0#
+Text GLabel 20400 2050 0    50   Input ~ 0
+SPI0_CLK
+Text GLabel 20400 1950 0    50   Input ~ 0
+SPI0_MISO
+Text GLabel 20900 2050 2    50   Input ~ 0
+SPI0_MOSI
+Text GLabel 20900 2150 2    50   Input ~ 0
+mCOM_GND
+Text GLabel 20900 1950 2    50   Input ~ 0
+mCOM_5V
+Text Notes 18950 1450 0    118  ~ 0
+PC 104 Connector
 $EndSCHEMATC
