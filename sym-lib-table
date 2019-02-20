@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name CarrierBoardV3)(type Legacy)(uri ${KIPRJMOD}/CarrierBoardV3.lib)(options "")(descr ""))
+  (lib (name CarrierBoardV3-rescue)(type Legacy)(uri ${KIPRJMOD}/CarrierBoardV3-rescue.lib)(options "")(descr ""))
 )
