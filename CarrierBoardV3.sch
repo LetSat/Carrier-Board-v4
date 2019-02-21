@@ -274,8 +274,6 @@ F 3 "" H 4100 13200 60  0000 C CNN
 $EndComp
 Text Notes 8700 8700 0    157  ~ 0
 TX2i Connector (SEAM-50-02.0-S-08-2-A-K-TR)
-Wire Notes Line
-	8250 16050 8250 8250
 $Comp
 L Connector_Generic:Conn_02x26_Odd_Even J3
 U 1 1 5C65D725
@@ -1745,14 +1743,122 @@ $EndComp
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5C6EAA98
-P 5700 7450
-F 0 "TP1" H 5758 7570 50  0000 L CNN
-F 1 "TestPoint" H 5758 7479 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 5900 7450 50  0001 C CNN
-F 3 "~" H 5900 7450 50  0001 C CNN
-	1    5700 7450
+P 6050 6950
+F 0 "TP1" H 6108 7070 50  0000 L CNN
+F 1 "3.3V" H 6108 6979 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 6250 6950 50  0001 C CNN
+F 3 "~" H 6250 6950 50  0001 C CNN
+	1    6050 6950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2700 13050 2700 13350
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5C6FAA04
+P 6800 6950
+F 0 "TP2" H 6858 7070 50  0000 L CNN
+F 1 "5V" H 6858 6979 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7000 6950 50  0001 C CNN
+F 3 "~" H 7000 6950 50  0001 C CNN
+	1    6800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5C701292
+P 7500 6950
+F 0 "TP3" H 7558 7070 50  0000 L CNN
+F 1 "12V" H 7558 6979 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_4.0x4.0mm" H 7700 6950 50  0001 C CNN
+F 3 "~" H 7700 6950 50  0001 C CNN
+	1    7500 6950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6050 6950 3    50   Input ~ 0
+TX2i_3V3
+Text GLabel 6800 6950 3    50   Input ~ 0
+TX2i_5V
+Text GLabel 7500 6950 3    50   Input ~ 0
+TX2i_12V
+Text Notes 5900 6350 0    157  ~ 0
+Test Point Pads
+Wire Notes Line
+	5350 5950 8250 5950
+Wire Notes Line
+	8250 5950 8250 16050
+$Comp
+L Connector:Barrel_Jack J11
+U 1 1 5C7689A4
+P 5950 3200
+F 0 "J11" V 5800 3400 50  0000 L CNN
+F 1 "Barrel_Jack" H 5750 3000 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-036AH-SMT_Horizontal" H 6000 3160 50  0001 C CNN
+F 3 "~" H 6000 3160 50  0001 C CNN
+	1    5950 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C76D324
+P 7750 3500
+F 0 "R?" V 7850 3500 50  0000 C CNN
+F 1 "63.4k" V 7750 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7680 3500 50  0001 C CNN
+F 3 "~" H 7750 3500 50  0001 C CNN
+	1    7750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C76F66F
+P 7300 3250
+F 0 "R?" V 7400 3250 50  0000 C CNN
+F 1 "100k" V 7300 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7230 3250 50  0001 C CNN
+F 3 "~" H 7300 3250 50  0001 C CNN
+	1    7300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5C77608D
+P 6700 3000
+F 0 "#PWR?" H 6700 2750 50  0001 C CNN
+F 1 "GNDREF" H 6705 2827 50  0000 C CNN
+F 2 "" H 6700 3000 50  0001 C CNN
+F 3 "" H 6700 3000 50  0001 C CNN
+	1    6700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5C776356
+P 7050 3000
+F 0 "C?" H 7168 3046 50  0000 L CNN
+F 1 "10uF" H 7168 2955 50  0000 L CNN
+F 2 "" H 7088 2850 50  0001 C CNN
+F 3 "~" H 7050 3000 50  0001 C CNN
+	1    7050 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 2850 7050 2800
+Wire Wire Line
+	7050 2800 6700 2800
+Wire Wire Line
+	6700 2800 6700 3000
+Wire Wire Line
+	7300 3400 7300 3600
+$Comp
+L CarrierBoardV3:MPM3620 U?
+U 1 1 5C7853F2
+P 7250 4650
+F 0 "U?" H 7250 4020 60  0000 C CNN
+F 1 "MPM3620" H 7250 3914 60  0000 C CNN
+F 2 "" H 7250 4800 60  0001 C CNN
+F 3 "" H 7250 4800 60  0001 C CNN
+	1    7250 4650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
