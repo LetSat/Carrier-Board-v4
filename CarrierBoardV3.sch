@@ -252,7 +252,7 @@ Cant find where to connect yet
 Text GLabel 9050 9400 0    50   Input ~ 0
 TX2i_12V
 Text GLabel 9050 14300 0    50   Input ~ 0
-TX2i_12V
+TX2i_3V3
 Text GLabel 11300 9400 2    50   Input ~ 0
 TX2i_12V
 Text GLabel 11300 9500 2    50   Input ~ 0
@@ -1130,9 +1130,9 @@ F 3 "" H 3700 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2950 2550 2    50   Input ~ 0
-TX2i_RX
+UART1_RX
 Text GLabel 2950 2650 2    50   Input ~ 0
-TX2i_TX
+UART1_TX
 NoConn ~ 2950 2750
 Text GLabel 2950 2850 2    50   Input ~ 0
 TX2i_5V
@@ -2553,4 +2553,16 @@ NoConn ~ 4900 14200
 NoConn ~ 4900 14100
 NoConn ~ 4900 14600
 NoConn ~ 3000 7500
+Text GLabel 11300 13100 2    50   Input ~ 0
+TX2i_GND
+Text Notes 19600 11500 0    39   ~ 0
+Possible\nCamera GPIO
+Text Notes 19600 11800 0    39   ~ 0
+Possible\nCamera GPIO
+Text Notes 19600 12100 0    39   ~ 0
+Possible\nCamera GPIO
+Text GLabel 14950 10200 2    50   Input ~ 0
+UART1_TX
+Text GLabel 14950 10300 2    50   Input ~ 0
+UART1_RX
 $EndSCHEMATC
