@@ -14,170 +14,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CarrierBoardV3:TX2iConnctor J4
-U 1 1 5C5E0BA7
-P 15550 11700
-F 0 "J4" H 15700 14265 50  0000 C CNN
-F 1 "TX2iConnctor" H 15700 14174 50  0000 C CNN
-F 2 "CarrierBoardV3:SEAM-50-02.0-XX-08-X-A" H 18350 12200 50  0001 C CNN
-F 3 "" H 18350 12200 50  0001 C CNN
-	1    15550 11700
-	1    0    0    -1  
-$EndComp
-Text GLabel 9050 12100 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 9050 13000 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 9050 13300 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 9050 13600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 9600 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 9700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 10700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 12400 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 13400 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 13700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 11300 14000 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 9600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 9700 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 11400 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 11700 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 12000 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 12300 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 12600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 12900 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 13200 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 13500 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 12800 13800 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 11300 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 11600 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 11900 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 12200 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 12500 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 12800 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 13100 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 13400 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 14950 13700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 11200 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 11500 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 11800 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 12100 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 12400 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 12700 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 13000 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 13300 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 13600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 16450 13900 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 10300 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 10800 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 11400 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 11700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 12000 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 12300 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 12600 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 12900 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 13200 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 13500 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 18600 13800 2    50   Input ~ 0
-TX2i_GND
 Text GLabel 18600 14200 2    50   Input ~ 0
 GBE_CTREF{GND}
-Text GLabel 20050 9600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 11000 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 11300 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 11600 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 11900 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 12200 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 12500 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 12800 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 13100 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 13400 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 13700 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 14000 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 20050 14300 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 11200 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 11500 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 11800 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 12100 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 12400 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 12700 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 13000 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 13300 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 13600 2    50   Input ~ 0
-TX2i_GND
 Text GLabel 22200 13900 2    50   Input ~ 0
-TX2i_GND
-Text GLabel 22200 14200 2    50   Input ~ 0
 TX2i_GND
 Text GLabel 22200 14100 2    50   Input ~ 0
 GBE_MDI3-
@@ -298,14 +137,10 @@ Text GLabel 22200 10500 2    50   Input ~ 0
 UART0_TX
 Text GLabel 20550 5650 0    50   Input ~ 0
 SW3
-Text Notes 17850 4750 0    157  ~ 0
+Text Notes 17850 4150 0    157  ~ 0
 PC 104 Connector (Issue D - 3rd Gen)\n
 Text GLabel 9050 9500 0    50   Input ~ 0
 TX2i_12V
-Text GLabel 9050 9700 0    50   Input ~ 0
-TX2i_GND
-Text GLabel 9050 9600 0    50   Input ~ 0
-TX2i_GND
 Text GLabel 3600 13100 0    50   Input ~ 0
 SATA_TX+
 Text GLabel 3600 13200 0    50   Input ~ 0
@@ -801,7 +636,7 @@ SPI0_MISO
 Text GLabel 18700 3400 0    50   Input ~ 0
 SPI0_CLK
 Text GLabel 18700 3500 0    50   Input ~ 0
-SPI0_CS#
+SPI0_CS0#
 Text GLabel 19200 3300 2    50   Input ~ 0
 TX2i_3V3
 Text GLabel 19200 3400 2    50   Input ~ 0
@@ -2439,8 +2274,6 @@ NoConn ~ 4900 14200
 NoConn ~ 4900 14100
 NoConn ~ 4900 14600
 NoConn ~ 3000 7500
-Text GLabel 11300 13100 2    50   Input ~ 0
-TX2i_GND
 Text Notes 19600 11500 0    39   ~ 0
 Possible\nCamera GPIO
 Text Notes 19600 11800 0    39   ~ 0
@@ -2952,4 +2785,473 @@ Wire Notes Line
 	7450 500  7450 8250
 Wire Notes Line
 	4800 8250 4800 10900
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 5C877789
+P 8450 13600
+F 0 "#PWR0101" H 8450 13350 50  0001 C CNN
+F 1 "GNDREF" H 8455 13427 50  0000 C CNN
+F 2 "" H 8450 13600 50  0001 C CNN
+F 3 "" H 8450 13600 50  0001 C CNN
+	1    8450 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 13600 9050 13600
+Wire Wire Line
+	8450 13600 8450 13300
+Connection ~ 8450 13600
+Wire Wire Line
+	8450 9600 9050 9600
+Wire Wire Line
+	9050 9700 8450 9700
+Connection ~ 8450 9700
+Wire Wire Line
+	8450 9700 8450 9600
+Wire Wire Line
+	9050 12100 8450 12100
+Connection ~ 8450 12100
+Wire Wire Line
+	8450 12100 8450 9700
+Wire Wire Line
+	9050 13000 8450 13000
+Connection ~ 8450 13000
+Wire Wire Line
+	8450 13000 8450 12100
+Wire Wire Line
+	9050 13300 8450 13300
+Connection ~ 8450 13300
+Wire Wire Line
+	8450 13300 8450 13000
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 5C910FB3
+P 11800 14000
+F 0 "#PWR0102" H 11800 13750 50  0001 C CNN
+F 1 "GNDREF" H 11805 13827 50  0000 C CNN
+F 2 "" H 11800 14000 50  0001 C CNN
+F 3 "" H 11800 14000 50  0001 C CNN
+	1    11800 14000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 14000 11300 14000
+Wire Wire Line
+	11800 14000 11800 13700
+Wire Wire Line
+	11800 13700 11300 13700
+Connection ~ 11800 14000
+Wire Wire Line
+	11800 13700 11800 13400
+Wire Wire Line
+	11800 13400 11300 13400
+Connection ~ 11800 13700
+Wire Wire Line
+	11800 13400 11800 13100
+Wire Wire Line
+	11800 13100 11300 13100
+Connection ~ 11800 13400
+Wire Wire Line
+	11800 13100 11800 12400
+Wire Wire Line
+	11800 12400 11300 12400
+Connection ~ 11800 13100
+Wire Wire Line
+	11800 12400 11800 10700
+Wire Wire Line
+	11800 10700 11300 10700
+Connection ~ 11800 12400
+Wire Wire Line
+	11800 10700 11800 9700
+Wire Wire Line
+	11800 9700 11300 9700
+Connection ~ 11800 10700
+Wire Wire Line
+	11800 9700 11800 9600
+Wire Wire Line
+	11800 9600 11300 9600
+Connection ~ 11800 9700
+$Comp
+L power:GNDREF #PWR0103
+U 1 1 5C9EF5A4
+P 12350 13800
+F 0 "#PWR0103" H 12350 13550 50  0001 C CNN
+F 1 "GNDREF" H 12355 13627 50  0000 C CNN
+F 2 "" H 12350 13800 50  0001 C CNN
+F 3 "" H 12350 13800 50  0001 C CNN
+	1    12350 13800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 13800 12800 13800
+Wire Wire Line
+	12350 13800 12350 13500
+Wire Wire Line
+	12350 13500 12800 13500
+Connection ~ 12350 13800
+Wire Wire Line
+	12350 13500 12350 13200
+Wire Wire Line
+	12350 13200 12800 13200
+Connection ~ 12350 13500
+Wire Wire Line
+	12350 13200 12350 12900
+Wire Wire Line
+	12350 12900 12800 12900
+Connection ~ 12350 13200
+Wire Wire Line
+	12350 12900 12350 12600
+Wire Wire Line
+	12350 12600 12800 12600
+Connection ~ 12350 12900
+Wire Wire Line
+	12350 12600 12350 12300
+Wire Wire Line
+	12350 12300 12800 12300
+Connection ~ 12350 12600
+Wire Wire Line
+	12350 12300 12350 12000
+Wire Wire Line
+	12350 12000 12800 12000
+Connection ~ 12350 12300
+Wire Wire Line
+	12350 12000 12350 11700
+Wire Wire Line
+	12350 11700 12800 11700
+Connection ~ 12350 12000
+Wire Wire Line
+	12350 11700 12350 11400
+Wire Wire Line
+	12350 11400 12800 11400
+Connection ~ 12350 11700
+Wire Wire Line
+	12350 11400 12350 9700
+Wire Wire Line
+	12350 9700 12800 9700
+Connection ~ 12350 11400
+Wire Wire Line
+	12350 9700 12350 9600
+Wire Wire Line
+	12350 9600 12800 9600
+Connection ~ 12350 9700
+$Comp
+L power:GNDREF #PWR0104
+U 1 1 5CB44059
+P 15500 13700
+F 0 "#PWR0104" H 15500 13450 50  0001 C CNN
+F 1 "GNDREF" H 15505 13527 50  0000 C CNN
+F 2 "" H 15500 13700 50  0001 C CNN
+F 3 "" H 15500 13700 50  0001 C CNN
+	1    15500 13700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 13700 14950 13700
+Wire Wire Line
+	15500 13700 15500 13400
+Wire Wire Line
+	15500 13400 14950 13400
+Connection ~ 15500 13700
+Wire Wire Line
+	15500 13400 15500 13100
+Wire Wire Line
+	15500 13100 14950 13100
+Connection ~ 15500 13400
+Wire Wire Line
+	15500 13100 15500 12800
+Wire Wire Line
+	15500 12800 14950 12800
+Connection ~ 15500 13100
+Wire Wire Line
+	15500 12800 15500 12500
+Wire Wire Line
+	15500 12500 14950 12500
+Connection ~ 15500 12800
+Wire Wire Line
+	15500 12500 15500 12200
+Wire Wire Line
+	15500 12200 14950 12200
+Connection ~ 15500 12500
+Wire Wire Line
+	15500 12200 15500 11900
+Wire Wire Line
+	15500 11900 14950 11900
+Connection ~ 15500 12200
+Wire Wire Line
+	15500 11900 15500 11600
+Wire Wire Line
+	15500 11600 14950 11600
+Connection ~ 15500 11900
+Wire Wire Line
+	15500 11600 15500 11300
+Wire Wire Line
+	15500 11300 14950 11300
+Connection ~ 15500 11600
+$Comp
+L power:GNDREF #PWR0105
+U 1 1 5CC787EC
+P 15800 13900
+F 0 "#PWR0105" H 15800 13650 50  0001 C CNN
+F 1 "GNDREF" H 15805 13727 50  0000 C CNN
+F 2 "" H 15800 13900 50  0001 C CNN
+F 3 "" H 15800 13900 50  0001 C CNN
+	1    15800 13900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15800 13900 16450 13900
+Wire Wire Line
+	15800 13900 15800 13600
+Wire Wire Line
+	15800 13600 16450 13600
+Connection ~ 15800 13900
+Wire Wire Line
+	15800 13600 15800 13300
+Wire Wire Line
+	15800 13300 16450 13300
+Connection ~ 15800 13600
+Wire Wire Line
+	15800 13300 15800 13000
+Wire Wire Line
+	15800 13000 16450 13000
+Connection ~ 15800 13300
+Wire Wire Line
+	15800 13000 15800 12700
+Wire Wire Line
+	15800 12700 16450 12700
+Connection ~ 15800 13000
+Wire Wire Line
+	15800 12700 15800 12400
+Wire Wire Line
+	15800 12400 16450 12400
+Connection ~ 15800 12700
+Wire Wire Line
+	15800 12400 15800 12100
+Wire Wire Line
+	15800 12100 16450 12100
+Connection ~ 15800 12400
+Wire Wire Line
+	15800 12100 15800 11800
+Wire Wire Line
+	15800 11800 16450 11800
+Connection ~ 15800 12100
+Wire Wire Line
+	15800 11800 15800 11500
+Wire Wire Line
+	15800 11500 16450 11500
+Connection ~ 15800 11800
+Wire Wire Line
+	15800 11500 15800 11200
+Wire Wire Line
+	15800 11200 16450 11200
+Connection ~ 15800 11500
+$Comp
+L power:GNDREF #PWR0106
+U 1 1 5CDEC647
+P 19200 13600
+F 0 "#PWR0106" H 19200 13350 50  0001 C CNN
+F 1 "GNDREF" H 19205 13427 50  0000 C CNN
+F 2 "" H 19200 13600 50  0001 C CNN
+F 3 "" H 19200 13600 50  0001 C CNN
+	1    19200 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19200 13600 18800 13600
+Wire Wire Line
+	18800 13600 18800 13800
+Wire Wire Line
+	18800 13800 18600 13800
+Wire Wire Line
+	19200 13600 19200 13500
+Wire Wire Line
+	19200 13500 18600 13500
+Connection ~ 19200 13600
+Wire Wire Line
+	19200 13500 19200 13200
+Wire Wire Line
+	19200 13200 18600 13200
+Connection ~ 19200 13500
+Wire Wire Line
+	19200 13200 19200 12900
+Wire Wire Line
+	19200 12900 18600 12900
+Connection ~ 19200 13200
+Wire Wire Line
+	19200 12900 19200 12600
+Wire Wire Line
+	19200 12600 18600 12600
+Connection ~ 19200 12900
+Wire Wire Line
+	19200 12600 19200 12300
+Wire Wire Line
+	19200 12300 18600 12300
+Connection ~ 19200 12600
+Wire Wire Line
+	19200 12300 19200 12000
+Wire Wire Line
+	19200 12000 18600 12000
+Connection ~ 19200 12300
+Wire Wire Line
+	19200 12000 19200 11700
+Wire Wire Line
+	19200 11700 18600 11700
+Connection ~ 19200 12000
+Wire Wire Line
+	19200 11700 19200 11400
+Wire Wire Line
+	19200 11400 18600 11400
+Connection ~ 19200 11700
+Wire Wire Line
+	19200 11400 19200 10800
+Wire Wire Line
+	19200 10800 18600 10800
+Connection ~ 19200 11400
+Wire Wire Line
+	19200 10800 19200 10300
+Wire Wire Line
+	19200 10300 18600 10300
+Connection ~ 19200 10800
+$Comp
+L power:GNDREF #PWR0107
+U 1 1 5CFACC2F
+P 19550 14300
+F 0 "#PWR0107" H 19550 14050 50  0001 C CNN
+F 1 "GNDREF" H 19555 14127 50  0000 C CNN
+F 2 "" H 19550 14300 50  0001 C CNN
+F 3 "" H 19550 14300 50  0001 C CNN
+	1    19550 14300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	19550 14300 20050 14300
+Wire Wire Line
+	19550 14300 19550 14000
+Wire Wire Line
+	19550 14000 20050 14000
+Connection ~ 19550 14300
+Wire Wire Line
+	19550 14000 19550 13700
+Wire Wire Line
+	19550 13700 20050 13700
+Connection ~ 19550 14000
+Wire Wire Line
+	19550 13700 19550 13400
+Wire Wire Line
+	19550 13400 20050 13400
+Connection ~ 19550 13700
+Wire Wire Line
+	19550 13400 19550 13100
+Wire Wire Line
+	19550 13100 20050 13100
+Connection ~ 19550 13400
+Wire Wire Line
+	19550 13100 19550 12800
+Wire Wire Line
+	19550 12800 20050 12800
+Connection ~ 19550 13100
+Wire Wire Line
+	19550 12800 19550 12500
+Wire Wire Line
+	19550 12500 20050 12500
+Connection ~ 19550 12800
+Wire Wire Line
+	19550 12500 19550 12200
+Wire Wire Line
+	19550 12200 20050 12200
+Connection ~ 19550 12500
+Wire Wire Line
+	19550 12200 19550 11900
+Wire Wire Line
+	19550 11900 20050 11900
+Connection ~ 19550 12200
+Wire Wire Line
+	19550 11900 19550 11600
+Wire Wire Line
+	19550 11600 20050 11600
+Connection ~ 19550 11900
+Wire Wire Line
+	19550 11600 19550 11300
+Wire Wire Line
+	19550 11300 20050 11300
+Connection ~ 19550 11600
+Wire Wire Line
+	19550 11300 19550 11000
+Wire Wire Line
+	19550 11000 20050 11000
+Connection ~ 19550 11300
+Wire Wire Line
+	19550 11000 19550 9600
+Wire Wire Line
+	19550 9600 20050 9600
+Connection ~ 19550 11000
+$Comp
+L CarrierBoardV3:TX2iConnctor J4
+U 1 1 5C5E0BA7
+P 15550 11700
+F 0 "J4" H 15700 14265 50  0000 C CNN
+F 1 "TX2iConnctor" H 15700 14174 50  0000 C CNN
+F 2 "CarrierBoardV3:SEAM-50-02.0-XX-08-X-A" H 18350 12200 50  0001 C CNN
+F 3 "" H 18350 12200 50  0001 C CNN
+	1    15550 11700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0108
+U 1 1 5D1F07BD
+P 22750 14200
+F 0 "#PWR0108" H 22750 13950 50  0001 C CNN
+F 1 "GNDREF" H 22755 14027 50  0000 C CNN
+F 2 "" H 22750 14200 50  0001 C CNN
+F 3 "" H 22750 14200 50  0001 C CNN
+	1    22750 14200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	22750 14200 22200 14200
+Wire Wire Line
+	22750 14200 22750 13600
+Wire Wire Line
+	22750 13600 22200 13600
+Connection ~ 22750 14200
+Wire Wire Line
+	22750 13600 22750 13300
+Wire Wire Line
+	22750 13300 22200 13300
+Connection ~ 22750 13600
+Wire Wire Line
+	22750 13300 22750 13000
+Wire Wire Line
+	22750 13000 22200 13000
+Connection ~ 22750 13300
+Wire Wire Line
+	22750 13000 22750 12700
+Wire Wire Line
+	22750 12700 22200 12700
+Connection ~ 22750 13000
+Wire Wire Line
+	22750 12700 22750 12400
+Wire Wire Line
+	22750 12400 22200 12400
+Connection ~ 22750 12700
+Wire Wire Line
+	22750 12400 22750 12100
+Wire Wire Line
+	22750 12100 22200 12100
+Connection ~ 22750 12400
+Wire Wire Line
+	22750 12100 22750 11800
+Wire Wire Line
+	22750 11800 22200 11800
+Connection ~ 22750 12100
+Wire Wire Line
+	22750 11800 22750 11500
+Wire Wire Line
+	22750 11500 22200 11500
+Connection ~ 22750 11800
+Wire Wire Line
+	22750 11500 22750 11200
+Wire Wire Line
+	22750 11200 22200 11200
+Connection ~ 22750 11500
 $EndSCHEMATC
