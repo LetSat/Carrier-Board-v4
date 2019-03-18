@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.1)
+    (last_trace_width 0.25)
     (user_trace_width 0.1)
     (user_trace_width 0.15)
     (user_trace_width 0.254)
@@ -1469,7 +1469,7 @@
   )
 
   (module CarrierBoardV3:LetSat_Logo_Front (layer F.Cu) (tedit 0) (tstamp 5C8671B4)
-    (at 149.2885 113.157)
+    (at 149.098 106.3625)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1619,7 +1619,7 @@
     )
   )
 
-  (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 5C8EACC2) (tstamp 5C8D3E49)
+  (module MountingHole:MountingHole_2.7mm_M2.5_Pad (layer F.Cu) (tedit 5C8EACC2) (tstamp 5C8EE9F7)
     (at 128.7632 78.3862)
     (descr "Mounting Hole 2.7mm, M2.5")
     (tags "mounting hole 2.7mm m2.5")
@@ -2520,6 +2520,11 @@
       (net 8 TX2i_12V))
     (pad A1 smd circle (at 31.115 -4.445 180) (size 0.635 0.635) (layers F.Cu F.Paste F.Mask)
       (net 8 TX2i_12V))
+    (model ${KIPRJMOD}/SEAM-50-02.0-S-08-2-A-K-TR.stp
+      (offset (xyz 0 0 1.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5C85A57C)
@@ -11838,8 +11843,6 @@
   (segment (start 166.24583 50.8062) (end 167.7082 50.8062) (width 0.254) (layer In2.Cu) (net 418))
   (segment (start 165.1682 50.8062) (end 166.24583 50.8062) (width 0.254) (layer In2.Cu) (net 418))
   (segment (start 170.2482 48.2662) (end 170.2482 50.8062) (width 1) (layer In1.Cu) (net 419))
-  (segment (start 115.4132 112.7862) (end 113.9632 111.3362) (width 1) (layer F.Cu) (net 512))
-  (segment (start 109.0882 111.3362) (end 113.9632 111.3362) (width 1) (layer F.Cu) (net 512))
   (segment (start 104.4882 109.2112) (end 104.4882 111.2862) (width 1) (layer F.Cu) (net 424))
   (segment (start 105.5132 108.1862) (end 104.4882 109.2112) (width 1) (layer F.Cu) (net 424))
   (segment (start 119.0632 108.1862) (end 105.5132 108.1862) (width 1) (layer F.Cu) (net 424))
@@ -12361,6 +12364,8 @@
   (segment (start 110.2867 99.3902) (end 110.3122 99.4157) (width 0.25) (layer B.Cu) (net 510))
   (segment (start 106.2482 99.3902) (end 110.2867 99.3902) (width 0.254) (layer B.Cu) (net 510))
   (segment (start 110.3122 99.4157) (end 110.3122 100.9142) (width 0.254) (layer B.Cu) (net 510))
+  (segment (start 115.4132 112.7862) (end 113.9632 111.3362) (width 1) (layer F.Cu) (net 512))
+  (segment (start 109.0882 111.3362) (end 113.9632 111.3362) (width 1) (layer F.Cu) (net 512))
   (segment (start 125.4125 62.75) (end 123.2535 60.591) (width 0.5) (layer B.Cu) (net 516))
   (segment (start 125.4125 63.5) (end 125.4125 62.75) (width 0.5) (layer B.Cu) (net 516))
   (segment (start 123.2535 49.5315) (end 121.9882 48.2662) (width 0.5) (layer B.Cu) (net 516))
