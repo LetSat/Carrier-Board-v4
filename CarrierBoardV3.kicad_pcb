@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 63)
+    (drawings 67)
     (tracks 5298)
     (zones 0)
     (modules 102)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.254)
     (user_trace_width 0.1)
     (user_trace_width 0.15)
     (user_trace_width 0.254)
@@ -6685,6 +6685,12 @@
       (xy -1.677906 0.291158)) (layer F.SilkS) (width 0.01))
   )
 
+  (gr_poly (pts (xy 173.355 125.222) (xy 173.355 121.539) (xy 174.498 121.539) (xy 174.498 125.222)) (layer B.SilkS) (width 0.15) (tstamp 5C97595E))
+  (gr_poly (pts (xy 169.418 124.079) (xy 173.355 124.079) (xy 173.355 125.222) (xy 169.418 125.222)) (layer B.SilkS) (width 0.15) (tstamp 5C97595E))
+  (gr_poly (pts (xy 169.418 121.539) (xy 173.355 121.539) (xy 173.355 122.682) (xy 169.418 122.682)) (layer B.SilkS) (width 0.15))
+  (gr_text S/N: (at 171.323 123.317) (layer B.Mask)
+    (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
+  )
   (gr_text "GROUND UNIT\nDO NOT FLY" (at 148.082 100.203) (layer F.Mask) (tstamp 5CA5A70F)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -6701,11 +6707,11 @@
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
   (gr_circle (center 109.395113 125.408387) (end 109.395113 124.408387) (layer F.SilkS) (width 0.2))
-  (gr_poly (pts (xy 153.67 121.539) (xy 153.67 125.222) (xy 173.228 125.222) (xy 173.228 121.539) (xy 167.513 121.539)) (layer B.SilkS) (width 0.15))
+  (gr_poly (pts (xy 149.86 121.539) (xy 149.86 125.222) (xy 169.418 125.222) (xy 169.418 121.539) (xy 163.703 121.539)) (layer B.SilkS) (width 0.15))
   (gr_text "GROUND UNIT\nDO NOT FLY" (at 149.098 113.919) (layer B.Mask)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "S/N: 0C137_V3_SP19" (at 170.307 132.08) (layer B.Mask) (tstamp 5CA240D5)
+  (gr_text "Model: 0C137_V3_SP19" (at 170.307 132.08) (layer B.Mask) (tstamp 5CA240D5)
     (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
   )
   (gr_text "   Prabodh Jhaveri\nDaniel Lopez" (at 170.6372 133.80466) (layer B.Mask)
@@ -6767,7 +6773,6 @@
   (gr_arc (start 106.1632 103.7862) (end 104.3632 103.7862) (angle -180) (layer Edge.Cuts) (width 0.2))
   (gr_arc (start 185.1632 61.7862) (end 183.3632 61.7862) (angle -180) (layer Edge.Cuts) (width 0.2))
 
-  (via (at 158.369 58.293) (size 0.457) (drill 0.254) (layers F.Cu B.Cu) (net 234))
   (via (at 139.4132 129.7862) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1))
   (segment (start 138.338201 134.2862) (end 138.088201 134.0362) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 139.4132 134.2862) (end 138.338201 134.2862) (width 0.25) (layer F.Cu) (net 1))
@@ -10817,6 +10822,7 @@
   (segment (start 126.288793 92.80454) (end 126.12934 92.80454) (width 0.254) (layer In2.Cu) (net 202))
   (segment (start 126.422853 92.9386) (end 126.288793 92.80454) (width 0.254) (layer In2.Cu) (net 202))
   (segment (start 126.746 92.9386) (end 126.422853 92.9386) (width 0.254) (layer In2.Cu) (net 202))
+  (via (at 158.369 58.293) (size 0.457) (drill 0.254) (layers F.Cu B.Cu) (net 234))
   (via (at 129.6682 83.7762) (size 0.457) (drill 0.254) (layers F.Cu B.Cu) (net 234))
   (via (at 123.0122 104.9782) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 234))
   (segment (start 123.0122 109.0772) (end 123.0122 104.9782) (width 0.254) (layer In2.Cu) (net 234))
