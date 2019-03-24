@@ -4815,9 +4815,9 @@ Wire Wire Line
 Wire Wire Line
 	22250 7100 22275 7100
 Text GLabel 22250 8075 2    50   Input ~ 0
-SW5
+SW6
 Text GLabel 22300 7650 2    50   Input ~ 0
-SW8
+SW9
 Text GLabel 22125 7625 0    50   Input ~ 0
 TX2i_3V3
 Text GLabel 22100 8100 0    50   Input ~ 0
@@ -4827,7 +4827,7 @@ L Connector:Conn_01x02_Male J12
 U 1 1 5CEB2CF8
 P 22250 7350
 F 0 "J12" V 22310 7391 50  0000 L CNN
-F 1 "SW8-3V3_SHUNT" V 22401 7391 50  0000 L CNN
+F 1 "SW9-3V3_SHUNT" V 22401 7391 50  0000 L CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 22250 7350 50  0001 C CNN
 F 3 "~" H 22250 7350 50  0001 C CNN
 	1    22250 7350
