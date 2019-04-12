@@ -2070,8 +2070,6 @@ Wire Wire Line
 Wire Wire Line
 	13050 6000 13050 5250
 Wire Wire Line
-	13050 5250 12900 5250
-Wire Wire Line
 	12950 6000 12950 5700
 Wire Wire Line
 	12950 5400 12700 5400
@@ -6876,4 +6874,20 @@ Text GLabel 18850 6750 0    50   Input ~ 0
 UART_A_RX_LVTTL
 Text GLabel 18850 6850 0    50   Input ~ 0
 UART_A_TX_LVTTL
+Wire Wire Line
+	13050 5250 13050 5100
+Connection ~ 13150 5100
+Wire Wire Line
+	15250 5250 15250 5100
+Wire Wire Line
+	15250 5100 15350 5100
+Connection ~ 15250 5250
+Connection ~ 15350 5100
+Text Notes 13000 5000 0    50   ~ 0
+10V or higher capcacitor\n
+Wire Wire Line
+	13050 5100 13150 5100
+Connection ~ 13050 5250
+Wire Wire Line
+	12900 5250 13050 5250
 $EndSCHEMATC
